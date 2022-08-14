@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">todo App</string>
+    <string name="Title">HADAF</string>
+    <string name="typingGaol">Type Your Gaol</string>
+    <string name="Save">Save</string>
+
+
+</resources>
