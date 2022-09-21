@@ -6,4 +6,10 @@ plugins {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+    gradle.projectsEvaluated{
+        tasks.withType(JavaCompile) {
+            options.encoding = "UTF-8"
+            options.compilerArgs << "-Xint:deprecatior"
+        }
+    }
 }
